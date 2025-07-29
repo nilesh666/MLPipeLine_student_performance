@@ -1,0 +1,18 @@
+[ 2025-07-29 19:19:22,879 ] 26 root - INFO - Entered the data ingestion method
+[ 2025-07-29 19:19:22,886 ] 29 root - INFO - Read the data
+[ 2025-07-29 19:19:22,893 ] 34 root - INFO - Train test split initiated
+[ 2025-07-29 19:19:22,905 ] 40 root - INFO - Ingestion of the data is completed
+[ 2025-07-29 19:19:22,910 ] 67 root - INFO - Read train and test completed
+[ 2025-07-29 19:19:22,911 ] 69 root - INFO - Obtaining preprocessing object
+[ 2025-07-29 19:19:22,911 ] 47 root - INFO - Numerical columns are ['writing score', 'reading score']
+[ 2025-07-29 19:19:22,911 ] 48 root - INFO - Categorical columns are ['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[ 2025-07-29 19:19:22,918 ] 76 root - INFO - Columns of train_df: Index(['gender', 'race/ethnicity', 'parental level of education', 'lunch',
+       'test preparation course', 'math score', 'reading score',
+       'writing score'],
+      dtype='object')
+[ 2025-07-29 19:19:22,920 ] 84 root - INFO - Applying preprocessing object on train and test data
+[ 2025-07-29 19:19:22,920 ] 85 root - INFO - Columns of input_feature_train: Index(['gender', 'race/ethnicity', 'parental level of education', 'lunch',
+       'test preparation course', 'reading score', 'writing score'],
+      dtype='object')
+[ 2025-07-29 19:19:22,940 ] 94 root - INFO - Saved preprocessing object
+[ 2025-07-29 19:19:22,946 ] 31 root - INFO - Input the data and split

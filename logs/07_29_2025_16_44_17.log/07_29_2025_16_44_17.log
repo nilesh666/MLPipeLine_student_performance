@@ -1,9 +1,0 @@
-[ 2025-07-29 16:44:20,092 ] 24 root - INFO - Entered the data ingestion method
-[ 2025-07-29 16:44:20,101 ] 27 root - INFO - Read the data
-[ 2025-07-29 16:44:20,109 ] 32 root - INFO - Train test split initiated
-[ 2025-07-29 16:44:20,118 ] 38 root - INFO - Ingestion of the data is completed
-[ 2025-07-29 16:44:20,124 ] 67 root - INFO - Read train and test completed
-[ 2025-07-29 16:44:20,124 ] 69 root - INFO - Obtaining preprocessing object
-[ 2025-07-29 16:44:20,124 ] 47 root - INFO - Numerical columns are ['writing_score', 'reading_score']
-[ 2025-07-29 16:44:20,124 ] 48 root - INFO - Categorical columns are ['gender', 'race_ethnicity', 'parental level of education', 'lunch', 'test preparation course']
-[ 2025-07-29 16:44:20,127 ] 82 root - INFO - Applying preprocessing pbject on train and test data
