@@ -59,3 +59,11 @@ def evaluate_models(x_train, y_train, x_test, y_test, models):
     result_data.to_csv("./artifacts/model_results.csv", index=False)
 
     return result_data, best_model
+
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as f:
+            return dill.load(f)
+        
+    except Exception as e:
+        raise CustomException(e, sys)

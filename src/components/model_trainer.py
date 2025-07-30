@@ -54,9 +54,9 @@ class ModelTrainer:
                                                 models = models,
                                                 )
             
-            best_model = model_report[model_report['R2_test'] == model_report['R2_test'].max()]
-            best_model_name = best_model['Model'].iloc[0]
-            best_model_score = best_model['R2_test'].iloc[0]
+            best_model_1 = model_report[model_report['R2_test'] == model_report['R2_test'].max()]
+            best_model_name = best_model_1['Model'].iloc[0]
+            best_model_score = best_model_1['R2_test'].iloc[0]
 
             if best_model_score < 0.6:
                 raise CustomException("Model Poor")

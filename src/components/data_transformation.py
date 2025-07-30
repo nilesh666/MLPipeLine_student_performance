@@ -21,13 +21,14 @@ class DataTransformation:
 
     def get_data_transformer_ob(self):
         try:
-            num_features = ["writing score", "reading score"]
+            
+            num_features = ["writing_score", "reading_score"]
             cat_features = [
                 "gender",
-                "race/ethnicity",
-                "parental level of education",
+                "race_ethnicity",
+                "parental_level_of_education",
                 "lunch",
-                "test preparation course"
+                "test_preparation_course"
             ]
 
             num_pipeline = Pipeline(
@@ -70,8 +71,8 @@ class DataTransformation:
 
             preprocessor_ob = self.get_data_transformer_ob()
 
-            target_col = "math score"
-            num_col = ["writing score", "reading score"]
+            target_col = "math_score"
+            num_col = ["writing_score", "reading_score"]
 
             logging.info(f"Columns of train_df: {train_df.columns}")
 
