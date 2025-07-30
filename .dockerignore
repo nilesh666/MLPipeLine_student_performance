@@ -1,0 +1,26 @@
+# Ignore Python virtual environments
+.venv/
+env/
+
+# Ignore Git data
+.git/
+.gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebooks and datasets
+*.ipynb
+*.csv
+*.xlsx
+data/
+
+artifacts/
+
+
+# Ignore Docker itself
+Dockerfile
+.dockerignore
+
