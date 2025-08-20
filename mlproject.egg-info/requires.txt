@@ -1,2 +1,7 @@
 numpy
 pandas
+scikit-learn
+dill
+xgboost
+catboost
+flask
